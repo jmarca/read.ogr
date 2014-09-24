@@ -1,0 +1,13 @@
+Package: read.ogr
+Title: Simple helper to read gdal stuff from a PostgreSQL/PostGIS
+Version: 0.1
+Authors@R: "James Marca <james@activiemtrics.com> [aut, cre]"
+Description: Basically two simple functions.  One function allows arbirary sql,
+    the other just loads a view or table directly.
+Depends: 
+    R (>= 3.1.1)
+License: MIT
+LazyData: true
+Suggests: testthat,
+    knitr
+VignetteBuilder: knitr
