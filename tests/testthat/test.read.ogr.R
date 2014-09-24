@@ -1,7 +1,3 @@
-library(testthat)
-
-##source('../R/read.ogr.R',chdir=TRUE)
-
 test_that("can get data from a view", {
 
     df <- readOgr('vds_current_view'

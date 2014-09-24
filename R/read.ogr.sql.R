@@ -1,5 +1,3 @@
-library(rgdal)
-
 psqlenv <- Sys.getenv(c("PGHOST", "PGUSER", "PGPASSWORD", "PGDATABASE","PGPORT"))
 
 

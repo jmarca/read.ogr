@@ -1,7 +1,3 @@
-library(testthat)
-
-##source('../R/read.ogr.R',chdir=TRUE)
-
 test_that("can get data from arbitrary sql", {
 
     df <- readOgrSQL('select * from vds_current_view limit 100'
