@@ -1,8 +1,4 @@
-
-
 library(RPostgreSQL)
-library(rgeos)
-library(sp)
 
 readOgrSQL <- function ( sql
                        ,host=psqlenv[1]
