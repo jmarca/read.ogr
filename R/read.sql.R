@@ -8,12 +8,6 @@ readSQL <- function ( sql
                        ,port=psqlenv[5]
                        ,...) {
     m <- dbDriver("PostgreSQL")
-    print (paste('connecting with'
-                ,user=user
-                ,password=password
-                ,host=host
-                ,port=port
-                ,dbname=dbname))
     con <-  dbConnect(m
                      ,user=user
                      ,password=password
