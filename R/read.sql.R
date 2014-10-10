@@ -1,6 +1,6 @@
 library(RPostgreSQL)
 
-readOgrSQL <- function ( sql
+readSQL <- function ( sql
                        ,host=psqlenv[1]
                        ,user=psqlenv[2]
                        ,password=psqlenv[3]
